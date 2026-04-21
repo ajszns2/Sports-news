@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports News</title>
+    <link rel="stylesheet" href="websitewireframe.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">LOGO</div>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Trending</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        
+        <aside class="left-sidebar">
+            <div class="card">
+                <h3>Top Story</h3>
+                <img src="https://cdn.nba.com/manage/2026/03/GettyImages-2263778380-scaled-e1772414674260.jpg" class="wireframe-img" width="170" height="180">
+            </div>
+            <div class="card">
+                <h3>Other Top Stories</h3>
+                <img src="https://static.outkick.com/www.outkick.com/content/uploads/2026/04/dalton-rushing-dodgers.jpg" width="170"  height="180">
+            </div>
+            <div class="card">
+                <h3>News & Buzz</h3>
+                <img src="https://ninerswire.usatoday.com/gcdn/authoring/images/smg/2025/02/21/SNIN/79484227007-77-695317.png?width=660&height=372&fit=crop&format=pjpg&auto=webp" width="170"  height="180">
+
+            </div>
+        </aside>
+
+        <main class="center-content">
+            <h2>Main Headline Article: Major trade updates</h2>
+            <img src="https://ewscripps.brightspotcdn.com/dims4/default/5a907de/2147483647/strip/true/crop/4100x2306+0+213/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F6c%2F03%2Fc6d65a4543a1b92ad5a2ab0a4f90%2Fap26096685311826.jpg" width="500
+            "  height=250>
+            <p class="subject-line">Trade Alert: DT Dexter Lawrence has been traded to the Cincinnati Bengals. The Bengals give the New York Giants 2026 First round, Pick 10 in exchange for Star Defensive Linemen, Dexter Lawrence. Lawrence was given a contract extention of a one-year, $28 million extension just short after being traded. </p>
+            <hr>
+           <div class="featured-section">
+    <h3>Featured: Trade Impact & Fan Poll</h3>
+
+    <!-- Featured Story Expansion -->
+    <div class="feature-story">
+        <h4>What This Trade Means</h4>
+        <p>
+            The Bengals acquiring Dexter Lawrence strengthens their defensive front significantly,
+            giving them a dominant interior presence. This move signals a “win-now” mentality,
+            especially as they aim to compete deep into the playoffs.
+        </p>
+        <p>
+            For the Giants, gaining a 2026 first-round pick opens the door for rebuilding and adding
+            young talent. While losing a star defensive lineman hurts, the long-term flexibility could
+            reshape the franchise’s future.
+        </p>
+    </div>
+
+    <hr>
+
+    <!-- Fan Poll -->
+    <div class="fan-poll">
+        <h4>Fan Poll: Who Won the Trade?</h4>
+        <form>
+            <label>
+                <input type="radio" name="poll" value="bengals"> Cincinnati Bengals
+            </label><br>
+
+            <label>
+                <input type="radio" name="poll" value="giants"> New York Giants
+            </label><br>
+
+            <label>
+                <input type="radio" name="poll" value="even"> Even Trade
+            </label><br><br>
+
+            <button type="button" onclick="showResults()">Vote</button>
+        </form>
+
+        <p id="poll-result" style="margin-top:10px; font-weight:bold;"></p>
+    </div>
+</div>
+
+<script src="websitewireframe.js" defer></script>
+
+</body>
+</html>
